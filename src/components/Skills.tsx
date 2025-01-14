@@ -21,7 +21,7 @@ const skills = [
   {
     category: 'DevOps',
     icon: Terminal,
-    skills: [ 'AWS', 'Git','Docker'],
+    skills: [ 'Git','AWS','Docker'],
   },
   {
     category: 'Programming Languages',

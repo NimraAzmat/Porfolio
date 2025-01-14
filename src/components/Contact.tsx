@@ -62,6 +62,18 @@ export default function Contact() {
             </p>
             
             <div className="space-y-6">
+            <motion.div 
+                className="flex items-center space-x-4"
+                whileHover={{ x: 10 }}
+              >
+                <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-indigo-600" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">Phone</p>
+                  <p className="text-gray-900 font-medium">+923488513764</p>
+                </div>
+              </motion.div>
               <motion.div 
                 className="flex items-center space-x-4"
                 whileHover={{ x: 10 }}
@@ -71,7 +83,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Email</p>
-                  <p className="text-gray-900 font-medium">contact@nimra.68998@gmail.com</p>
+                  <p className="text-gray-900 font-medium">nimra.68998@gmail.com</p>
                 </div>
               </motion.div>
               
